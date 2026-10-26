@@ -85,6 +85,7 @@ This is a modified stock ROM for Nokia 3 TA-1032 based on firmware 00WW_5_230, w
 
 # Installation:
 ## Main installation process:
+**First make sure you are on firmware `00WW_5_230` before flashing.**
 ### Method 1 (fastboot):
 
 1. Extract the NE1.zip file
