@@ -200,13 +200,11 @@ The change is temporary. You need to do this on every boot.
 
 After applying these, you should always have over 1 GB RAM free on the home screen.
 
+Also managed to get a stable 13 FPS on Minecraft PE with 5 chunks render distance and maximum graphics quality (at 1920x1080 resolution). This may sound silly, but it's actually a huge improvement. Also, the default resolution is 1280x720 for this phone, so with this resolution you should get 20+ FPS at the same settings.
+
 # Screenshots
 <img src="images/Screenshot_20250612-213809.png">
 <img src="images/Screenshot_20250612-213817.png">
-
-Also managed to get a stable 13 FPS on Minecraft PE with 5 chunks render distance and maximum graphics quality (at 1920x1080 resolution). This may sound silly, but it's actually a huge improvement. Also, the default resolution is 1280x720 for this phone, so with this resolution you should get 20+ FPS at the same settings.
-
-
 
 # Download
 https://github.com/IsHacker003/NE1_ROM/releases
