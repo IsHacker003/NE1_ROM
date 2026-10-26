@@ -17,7 +17,7 @@
 
 
 
-This is a modified stock ROM for Nokia 3 TA-1032 based on firmware 00WW_5_230, with FOSS apps (microG, NewPipe, Fossify, LibreOffice, AOSP, etc) and a lot of features. All bloat/spyware has been removed.
+This is a modified stock ROM for Nokia 3 TA-1032 based on firmware 00WW_5_230, with FLOSS apps (microG, NewPipe, Fossify, LibreOffice, AOSP, etc) and a lot of features. All bloat/spyware has been removed.
 
 # Features:
 1. Lightning-fast experience
@@ -42,11 +42,11 @@ This is a modified stock ROM for Nokia 3 TA-1032 based on firmware 00WW_5_230, w
 
 11. A lot of nonfree components and libraries have been removed
 
-12. FOSS App Tubular (fork of NewPipe) included for premium, adfree and surveillance-free YouTube experience. Tubular is archived and no longer maintained, so it was removed from the ROM.
+12. ~~FLOSS App Tubular (fork of NewPipe) included for premium, adfree and surveillance-free YouTube experience.~~ Tubular is archived and no longer maintained, so it was removed from the ROM.
 
 13. LibreOffice included for viewing Office documents
 
-14. A lightweight FOSS PDF Viewer is included
+14. A lightweight FLOSS PDF Viewer is included
 
 15. `adb root` is supported
 
