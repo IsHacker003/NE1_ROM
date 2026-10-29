@@ -1,16 +1,12 @@
 ```
  *
-
+ * Your warranty is... still valid?
+ *
  * I am not responsible for bricked devices, dead SD cards,
-
  * thermonuclear war, or you getting fired because the alarm app failed. Please
-
  * do some research if you have any concerns about features included in this ROM
-
  * before flashing it! YOU are choosing to make these modifications, and if
-
  * you point the finger at me for messing up your device, I will laugh at you.
-
  *
 ```
 
@@ -241,9 +237,7 @@ https://github.com/IsHacker003/NE1_misc
 
 # Source code of apps:
 ## Included apps:
-**README:** All apps listed here has been compiled from source by me, instead of just using the prebuilt APKs. I also modified several apps to work with this ROM, and I linked my modified source code where necessary.
-
-
+**README:** All of the apps listed here have been installed into the ROM through F-Droid. Where an F-Droid version wasn't available, I compiled the app from source myself and verified that it was reproducible. I also modified several apps to work with this ROM, and I linked my modified source code where necessary.
 
 1. MicroG: https://github.com/microg/GmsCore
 
