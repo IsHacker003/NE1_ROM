@@ -10,9 +10,6 @@
  *
 ```
 
-
-
-
 This is a modified stock ROM for Nokia 3 TA-1032 based on firmware 00WW_5_230, with FLOSS apps (microG, NewPipe, Fossify, LibreOffice, AOSP, etc) and a lot of features. All bloat/spyware has been removed.
 
 # Features:
@@ -67,7 +64,6 @@ This is a modified stock ROM for Nokia 3 TA-1032 based on firmware 00WW_5_230, w
 25. Basic ad and tracker blocking
 
 
-
 # Bugs:
 1. Loudspeaker sometimes stops working at lower volumes (workaround: crank up the volume to the highest, then decrease it again)
 
@@ -77,7 +73,8 @@ This is a modified stock ROM for Nokia 3 TA-1032 based on firmware 00WW_5_230, w
 
 4. Can't send MMS messages as libdrmframework_jni.so is missing (SMS still works fine) [WON'T FIX]
 
-
+# Supported models:​
+I have only tested this on the TA-1032. If you try it on a different model (e.g TA-1028, TA-1020) and it bootloops, please give me a logcat of the boot, I will try to fix it.
 
 # Installation:
 ## Main installation process:
@@ -104,7 +101,7 @@ fastboot reboot
 
 4. Enjoy!
 
-### Method 2 (TWRP):
+### Method 2 ([TWRP](https://xdaforums.com/t/recovery-unofficial-android-9-twrp-3-5-2-for-nokia-3.4667262/)):
 
 1. Copy and extract the NE1.zip file to the phone's external SD card
 
@@ -152,8 +149,6 @@ You can also lock the bootloader after flashing the ROM to get rid of the orange
 
 3. **Method 2:** Open the built-in "Bootloader Lock Control" app by typing `*#*#96191#*#*` in Dialer. Now tap "Lock bootloader" in the app and reboot. This will NOT erase your data.
 
-
-
 **NOTE: If your bootloader is locked, you will not be able to boot the phone if the charger is not connected. You will get the "red state" error. This is due to how the Nokia 3's bootloader works. For the same reason, you also can't boot into recovery or fastboot through button combinations if the phone is running on battery. You can disconnect the charger after the phone starts playing the boot animation with the Nokia logo.**
 
 ## Root and first time setup:
@@ -194,7 +189,6 @@ The change is temporary. You need to do this on every boot.
 </details>
 
 
-
 After applying these, you should always have over 1 GB RAM free on the home screen.
 
 Also managed to get a stable 13 FPS on Minecraft PE with 5 chunks render distance and maximum graphics quality (at 1920x1080 resolution). This may sound silly, but it's actually a huge improvement. Also, the default resolution is 1280x720 for this phone, so with this resolution you should get 20+ FPS at the same settings.
@@ -206,8 +200,6 @@ Also managed to get a stable 13 FPS on Minecraft PE with 5 chunks render distanc
 # Download
 https://github.com/IsHacker003/NE1_ROM/releases
 
-
-
 # Credits (all usernames are from XDA):
 1. @IsHacker (for original work) [ME]
 
@@ -217,8 +209,6 @@ https://github.com/IsHacker003/NE1_ROM/releases
 
 (If you contributed to this ROM but your name isn't listed here, please PM me on XDA or create an issue here. I'll happily add it.)
 
-
-
 # Kernel source:
 https://github.com/IsHacker003/android_kernel_nokia_heart
 
@@ -226,14 +216,10 @@ This ROM is based on firmware 00WW_5_230. Original firmware (OTA):
 
 https://androidfilehost.com/?fid=10763459528675589392
 
-
-
 # ROM Source:
 This is the source code of the modifications done by me. To get the full source code of the stock ROM, go to HMD Global's website.
 
 https://github.com/IsHacker003/NE1_misc
-
-
 
 # Source code of apps:
 ## Included apps:
